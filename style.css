@@ -38,13 +38,29 @@ nav a .user-account{
     border-radius: 50%;
 }
 
+nav a .user-account:hover{
+    background-color: rgba(95, 99, 104, 0.24);
+}
+
 nav a .app-select{
     padding: 8px;
     position: relative;
+    border-radius: 50%;
+}
+
+nav a .app-select:hover{
+    background-color:rgba(95, 99, 104, 0.24);
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-/*Search*/
+
+/*Google logo*/
+
+main .logo {
+    display: block;
+    margin: 180px auto 0 auto;
+}
+
