@@ -1,7 +1,13 @@
+body {
+    font-family: arial, sans-serif;
+}
 /*Nav Bar*/
 nav {
     height: 48px;
     padding: 6px;    
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration-color: rgba(0, 0, 0, 0.87);
 }
 
 nav .left-nav {
@@ -33,7 +39,6 @@ nav a .user-account{
     height: 32px;
     width: 32px;
     padding: 4px;
-    margin: 0px;
     position: relative;
     border-radius: 50%;
 }
@@ -61,6 +66,105 @@ nav a:hover {
 
 main .logo {
     display: block;
-    margin: 180px auto 0 auto;
+    margin: 118px auto 0 auto;
 }
 
+/*Search*/
+
+form {
+    max-width: 482px;
+    height: 46px;
+    margin: 22px auto;
+    display: flex;   
+    align-items: baseline;
+    border: 1px solid #dfe1e5;
+    border-radius: 22px;
+}
+
+form:hover,
+form:focus-within {
+  border-color: white;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+
+
+form .mag-glass {
+    width: 26px;
+    height: 26px;
+    padding-right: 13px;
+    margin-top: 10px;
+    margin-left: 12px;
+    float: left;
+}
+
+form input {
+    width: 387px;   
+    align-self: center;
+    border: none;
+    outline: none;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+}
+
+form .mic {
+    width: 26px;
+    height: 26px;
+    margin-top: 10px;
+    float: right;
+    border-radius: 25%;
+    border-color: transparent;
+}
+
+.center {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.center button  {
+    height: 36px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    font-size: 16px;
+    border-width: 1px;
+    border-radius: 4px;
+    border-color: rgb(242, 242, 242);
+    border-style: solid;
+}
+
+.center button:hover {
+    border-color: rgb(198, 198, 198);
+    cursor: pointer;
+}
+
+/*Footer*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 40px;
+    color: rgba(34, 34, 34, 0.87);
+    border: 1px solid rgb(221, 221, 221);
+    background-color: rgb(242, 242, 242);
+    font-family: arial,sans-serif;
+    line-height: 40px;
+}
+
+footer .left-foot {
+    float: left;
+}
+
+footer .left-foot a {
+    padding-left: 27px;
+}
+
+footer .right-foot {
+    float: right;
+    margin-right: 27px;
+}
+
+footer .right-foot a {
+    padding-left: 27px;
+}
