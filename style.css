@@ -1,8 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
-    color: #222;
+/*Nav Bar*/
+nav {
+    height: 48px;
+    padding: 6px;    
 }
 
-header {
-    min-height: 65px;
+nav .left-nav {
+    margin-left: 10px;
+    float: left;
+    line-height: 60px;
+    height: 48px;
+    display: flex;
+    align-items: center;
 }
+
+nav .left-nav a {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+nav .right-nav {
+    float: right;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+nav .right-nav .text-link{
+    margin-right: 15px;
+}
+
+nav a .user-account{
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+    margin: 0px;
+    position: relative;
+    border-radius: 50%;
+}
+
+nav a .app-select{
+    padding: 8px;
+    position: relative;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/*Search*/
