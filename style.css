@@ -6,8 +6,6 @@ nav {
     height: 48px;
     padding: 6px;    
     font-size: 13px;
-    color: rgba(0, 0, 0, 0.87);
-    text-decoration-color: rgba(0, 0, 0, 0.87);
 }
 
 nav .left-nav {
@@ -17,6 +15,8 @@ nav .left-nav {
     height: 48px;
     display: flex;
     align-items: center;
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration-color: rgba(0, 0, 0, 0.65);
 }
 
 nav .left-nav a {
@@ -29,6 +29,8 @@ nav .right-nav {
     height: 48px;
     display: flex;
     align-items: center;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration-color: rgba(0, 0, 0, 0.87);
 }
 
 nav .right-nav .text-link{
@@ -39,6 +41,7 @@ nav a .user-account{
     height: 32px;
     width: 32px;
     padding: 4px;
+    margin-right: 8px;
     position: relative;
     border-radius: 50%;
 }
@@ -145,11 +148,20 @@ footer {
     left: 0px;
     right: 0px;
     height: 40px;
-    color: rgba(34, 34, 34, 0.87);
     border: 1px solid rgb(221, 221, 221);
     background-color: rgb(242, 242, 242);
+}
+
+footer div a {
+    color: rgb(95, 99, 104);
+    text-decoration-color: rgb(95, 99, 104);
     font-family: arial,sans-serif;
+    font-size: 14px;
     line-height: 40px;
+}
+
+footer div a:hover {
+    text-decoration: underline;
 }
 
 footer .left-foot {
